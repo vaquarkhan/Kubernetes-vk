@@ -37,7 +37,7 @@ To summarize:
 
 kubectl create -f /home/user/nginx.yml
 
-kubectl get pods -n web
+               kubectl get pods -n web
 
 
 =========================================================

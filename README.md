@@ -19,19 +19,19 @@ To summarize:
 /home/user/nginx.yml 
 
 
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx
-  namespace: web
-spec:
-  containers:
-  - name: nginx
-    image: nginx
-    command: ["nginx"]
-    args: ["-g", "daemon off;", "-q"]
-    ports:
-    - containerPort: 80
+            apiVersion: v1
+            kind: Pod
+            metadata:
+              name: nginx
+              namespace: web
+            spec:
+              containers:
+              - name: nginx
+                image: nginx
+                command: ["nginx"]
+                args: ["-g", "daemon off;", "-q"]
+                ports:
+                - containerPort: 80
     
 ------------------------------------
 
